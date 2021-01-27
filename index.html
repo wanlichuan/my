@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0052)http://www.qhyart.com/qinghuayuanwenhuaabout-17.html -->
+<html class="js cssanimations"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<meta charset="gb2312">
+<title></title>
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="content-language" content="zh-CN">
+<meta name="baidu-site-verification" content="1EOfOOVlJu" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="format-detection" content="telephone=no">
+<meta name="Author" content="gas0324@qq.com">
+<link rel="stylesheet" href="css/amazeui.min.css">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/banner2.css" rel="stylesheet">
+<script src="js/jquery-1.9.1.min.js " >     
+                </script>
+<link rel="stylesheet" href="css/css1/amazeui.min.css">
+<link rel="stylesheet" href="css/css/css/amazeui.min.css"
+<link href="css/css/css/style.css" rel="stylesheet">
+<link href="css/mainy.css" rel="stylesheet">
+<link href="css/aas.css" rel="stylesheet">
+<link href="css/indexy.css" rel="stylesheet">
+<link href="css/css1/style.css" rel="stylesheet">
+<!-- <link href="css/css1/style.css" rel="stylesheet"> -->
+ <script type="text/javascript">
+
+$(function(){
+var small_carousel_index=0;
+	var li_num=$('.carousel_box_ul').find("li").length;
+	
+	$('.carousel_box_ul').css({width:$('.carousel_box_ul .carousel_box_li').length*227});
+	
+	$('.carousel_box_left').click(function(){
+		//通过small_carousel_index链接两个轮播器
+		$('.carousel_box_ul').animate({left:"-=227"},function(){
+				if($('.carousel_box_ul').position().left==-(li_num-4)*227){
+					document.getElementsByClassName('carousel_box_ul')[0].style.left=-227+"px";
+					}
+			});
+				small_carousel_index--;
+		change_background(small_carousel_index);
+		});
+		
+	$('.carousel_box_right').click(function(){
+		//通过small_carousel_index链接两个轮播器
+			
+		$('.carousel_box_ul').animate({left:"+=227"},function(){
+				if($('.carousel_box_ul').position().left>=0){
+					document.getElementsByClassName('carousel_box_ul')[0].style.left=-(li_num-5)*227+"px";
+					}
+			});
+			small_carousel_index++;
+		change_background(small_carousel_index);
+		});
+		
+		
+		function change_background(index){
+		$('.small_carousel_box_li').eq(index).find('.small_carousel_header').addClass('index');
+		$('.small_carousel_box_li').not($('.small_carousel_box_li').eq(index)).find('.small_carousel_header').removeClass('index');
+		}
+	});
+</script> 
+<script>
+$(function(){	
+
+//聊天
+function chats(num){
+	if(num==1){
+		 var CustomerService="http://wpa.qq.com/msgrd?v=3&uin=774259775&site=qq&menu=yes"
+		 window.open(CustomerService);
+	}
+	if(num==2){
+		 var CustomerService="http://wpa.qq.com/msgrd?v=3&uin=774259775&site=qq&menu=yes"
+		 window.open(CustomerService);	
+	}
+	if(num==3){
+		 var CustomerService="http://wpa.qq.com/msgrd?v=3&uin=774259775&site=qq&menu=yes"
+	     window.open(CustomerService);
+	}
+	if(num==4){
+		 var CustomerService="http://wpa.qq.com/msgrd?v=3&uin=774259775&site=qq&menu=yes"
+		window.open(CustomerService);
+	}	
+}
+function  mianfei(){
+	chats(2);
+	
+}
+function miankechen(){
+	chats(2);
+}
+function kecheng(){
+	chats(2);	
+}
+function shitin1(){
+	chats(2);
+}
+function shiting2(){
+	chats(2);	
+}
+});
+<!-- $(function(){ -->
+<!-- $(".weixing").hide(); -->
+  <!-- $(".wx ").click(function(){ -->
+
+   <!-- $(".weixing").show(); -->
+  
+  
+<!-- }); -->
+  <!-- $(".clase ").click(function(){ -->
+   <!-- $(".weixing").hide(); -->
+  
+  
+<!-- }) -->
+<!-- }) -->
+</script>
+<style>
+  .y3{margin-left:auto;margin-right:auto;position:relative} 
+.span1{ }
+ .y3 h1{ font-size:22px; font-weight:700; margin-bottom:11px}
+ .y3 p  {color:#414141; font-size:15px; font-family:微软雅黑;}
+ /*indexHd*/
+.indexHd{color:#e83428;font-size:36px;text-align:center;margin:60px 0 30px;}
+.indexHd .img{margin-top:30px;}
+.indexHd .img img{width:100%;}
+.indexHd .text{font-size:14px;color:#595757;padding:0 100px;margin-top:30px;}
+.indexHd .text p{margin:2px 0;}
+.indexHd a{color:#e83428;}
+/*indexAbout*/
+.indexAbout{background:url(../images/indexAboutBg.jpg) center top no-repeat;}
+#channel36 .artBox .img{float:right;position:relative;}
+#channel36 .artBox3 .img{float:left;}
+#channel36 .artBox4 .img{float:left;}
+#channel36 .artBox .name{float:left;padding:40px  30px 20px 30px ;width:200px;}
+#channel36 .artBox3 .name{float:right;}
+#channel36 .artBox4 .name{float:right;}
+#channel36 .artBox .name span.num{display:inline-block;padding-right:10px;color:#595757;font-size:60px;border-bottom:1px solid #595757;font-family:微软雅黑}
+#channel36 .artBox .name span.title{display:block;color:#ff5a8f;font-size:18px;margin-top:10px;}
+#channel36 .triangle{width: 0;height: 0;border-top: 8px solid transparent;border-left: 15px solid #fff;border-bottom: 8px solid transparent;position:absolute;top:100px;left:0;}
+#channel36 .artBox3 .triangle,#channel36 .artBox4 .triangle{left:auto;right:0;border-left:0;border-right: 15px solid #fff;}
+</style>
+</head>
+<body>
+<!--head begin-->
+
+<div class="nav">
+  <div class="am-container">
+    <ul class="menu">
+      <li><a href="index.html" style="width:131px; height:62px;margin-right:60px;padding:0"><img src="images/logo.png"></a>
+      </li>
+    
+      <li class="cur"><a href="index.html" style="color:#fff">首页</a></li>
+
+      </li>
+     <li>  <a href="about_us.html">关于我们</a></li>
+    <li><a href="art_growup.html">艺术成长</a></li>
+   <li>  <a href="fun_online.html">童趣在线</a></li>
+   <li><a href="creative_space.html">创意空间</a></li>
+   <li> <a href="community_education.html">社区美育</a></li>
+	<li><a href="art_practice.html">艺术实践</a></li>
+	 <li style="padding-right:0"><a href="art_life.html">艺术生活</a></li>
+    
+    </ul>
+  </div>
+</div>
+
+<div class="banner">
+     <div class="bigimg">
+     	<ul class="cb-slideshow">
+            <li><span>Image 01</span><div></div></li>
+            <li><span>Image 02</span><div></div></li>
+            <li><span>Image 03</span><div></div></li>
+            <li><span>Image 04</span><div></div></li>
+            <li><span>Image 05</span><div></div></li>
+            <li><span>Image 06</span><div></div></li>
+   		 </ul>
+	 </div>
+	 </div>
+	 <ul class="econtert" style="width:100%">
+  		<li class="box1" style="width:25%">
+  			<h4>便捷&nbsp;Convenient</h4>
+  			<p>推翻传统课堂模式，突破时间地点限制。有网随时学没网离线听。支持移动设备。</p>
+  		</li>
+  		<li class="box2" style="width:25%">
+  			<h4>专业&nbsp;Major</h4>
+  			<p>名师及资深教师，强强联手知名高校。最专业的教学资源，保证教学质量，注重实用性。</p>
+  		</li>
+  		<li class="box3" style="width:25%">
+  			<h4>互动&nbsp;Interaction</h4>
+  			<p>领先全球，自主开发的互动课件，边听变练。网上互动式交友，开心学习。</p>
+  		</li>
+  		<li class="box4" style="width:25%">
+  			<h4>贴心&nbsp;Intimate</h4>
+  			<p>网校老师量身定制学习计划，班主任监督学习好进度。更有答疑平台，24小时内边便有助教给予详尽解答。</p>
+  		</li>
+  </ul>
+
+  <div class="contenr">
+  		<div class="contenr1">
+  			<div class="contenr1img">
+  				<img src="images/guanyuwomen.jpg" alt="家族财富及全权委托投资">
+  		    </div>
+  		    <div class="about">
+  		    	<p>琉璃光少儿培训中心简介训成立于2007年，创办以来凭借着独特的教育方式和先进的教育理念，很快便在南京少儿培训市场形成了自己的特色，享有很高的口碑。琉璃光少儿培训中心与卫视，综艺频道，少儿频道多家媒体合作，在各种大型少儿演出、少儿评比活动及各电视台举办的少儿节目中都能看到琉璃光孩子们活泼的声影。琉璃光的办学模式主要由于</p>
+  		    </div>
+  		    <ul class="contenr2img">
+  		    	<li>
+  		    	<img src="images/meishu1.jpg">
+  		    		<div class="icon">
+  		    		     
+  		    			<a>经典美术教育推荐</a>
+  		    		</div>
+  		    	</li>
+  		    	<li>
+  		    	<img src="images/meishu1.jpg">
+  		    		<div class="icon">
+  		    			<a>经典美术教育推荐</a>
+  		    		</div>
+  		    	</li>
+  		    	<li>
+  		    	<img src="images/meishu1.jpg">
+  		    		<div class="icon">
+  		    			<a>经典美术教育推荐</a>
+  		    		</div>
+  		    	</li>
+  		    	
+  		    </ul>
+  		</div>
+  		
+  </div>
+  
+<div id="channel36" style="margin-top:30px;  margin-bottom:60px;">
+	<div class="am-container">
+   
+        <div class="indexHd"><div class="contenr1img">
+  				<img src="images/tongqwu.jpg" >
+  		    </div>
+          <div class="text">
+            
+          </div>
+        </div>
+        <div class="indexBd">
+        	<ul class="am-avg-sm-2">
+            
+            	<li class="artBox artBox1 am-cf">
+                <a>
+                <div class="img"><img src="./images_files/201609141019596214.jpg" alt="分享丨有这11个信号，说明你不适合去创业！"><div class="triangle"></div></div>
+                <div class="name">
+                <span class="num" style=";">01</span>
+                <span class="title">分享丨有这11个信号，说明你不适合去创业！</span>
+                </div>
+                </a>
+                </li>
+            
+            	<li class="artBox artBox2 am-cf">
+                <a >
+                <div class="img"><img src="./images_files/201606180051252573.png" alt="关于圣诞的那些事儿"><div class="triangle"></div></div>
+                <div class="name">
+                <span class="num">02</span>
+                <span class="title">关于圣诞的那些事儿</span>
+                </div>
+                </a>
+                </li>
+            
+            	<li class="artBox artBox3 am-cf">
+                <a>
+                <div class="img"><img src="./images_files/201606180051034406.png" alt="宝宝冬季感冒的预防策略"><div class="triangle"></div></div>
+                <div class="name">
+                <span class="num">03</span>
+                <span class="title">宝宝冬季感冒的预防策略</span>
+                </div>
+                </a>
+                </li>
+            
+            	<li class="artBox artBox4 am-cf">
+                <a >
+                <div class="img"><img src="./images_files/201606180050498398.png" alt="【创意妈妈】有爱的儿童便当"><div class="triangle"></div></div>
+                <div class="name">
+                <span class="num">04</span>
+                <span class="title">【创意妈妈】有爱的儿童便当</span>
+                </div>
+                </a>
+                </li>
+            
+            </ul>
+        </div>
+        
+    
+    </div>
+</div>
+
+
+  
+  
+  <div class="course_advantage" >
+  		    <div class="zaixianzixun1">
+			
+			   <p>推开传统，推开时间地点，有网随时学！名师给你来授课！</p>
+			</div>
+  		  <div class="zaixianzixun" >
+  			<a  onclick="chats(1)"> 在线咨询</a>
+  		</div> 
+  		</div>
+   <div class="course_advantage1">
+        <div style="width:437px; height:131px;margin-left:auto; margin-right:auto;"><img style="" src="images/y1.jpg"></div>
+		
+  </div>
+
+		
+		 <div class="y3" style=" margin-left:auto; height:700px; margin-right:auto; width: 1115px; background:url(images/y2.jpg) center;">
+		      <div class="span1" style="color:#18b1ea;margin-left:30px; margin-top:139px; width:280px; height:89px;overflow:hidden;float:left">
+			        <h1>快捷</h1>
+					<p>推翻传统课堂模式，突出时间地点限制，学习随时随地。</p>
+			  </div>
+			  <div class="span2" style="color:#adc77d;margin-right:-10px; margin-top:145px; width:280px; height:89px;overflow:hidden;float:right">
+			        <h1>专业</h1>
+					<p>名师及资深教师，最专业的教学资源，保证教学质量，注重实用性，激发少儿的无线潜能。</p>
+			  </div>
+			   <div style="color:#f8b028;margin-left:-260px; margin-top:450px; width:280px; height:89px;overflow:hidden;float:left">
+			        <h1>互动</h1>
+					<p>全球领先，自动开发的互动课程，边听边练。网上互动式交友，。</p>
+			  </div>
+			   <div class="span1" style="color:#eea5c3;margin-right:-220px; margin-top:510px; width:280px; height:89px;overflow:hidden;float:right">
+			           <h1>贴心</h1>
+					<p>网校老师量身制定计划，班主任监督学习进度。更有答疑平台，24小时内便有助教给予详尽解答</p>
+			  </div>
+		 </div>
+   </div>
+  
+  
+  <div class="biennial_root_box md">
+		     <div class="carousel_box">
+		    	<div class="carousel_box_left"></div>
+		        <div class="carousel_box_right"></div>
+		        <ul class="carousel_box_ul">
+		      
+		        	<li class="carousel_box_li">
+			            	<img src="images/th1.jpg">
+			            	<h3 class="small_carousel_header">姓名</h3>
+			            	<h4>师资介绍</h4>
+			                <p class="carousel_box_p">教学宣言：努力做好每一件事，为教育事业奋斗一生</p>
+			          </li>
+	              
+		        	<li class="carousel_box_li">
+			            	<img src="images/th1.jpg">
+			            	<h3 class="small_carousel_header">姓名</h3>
+			            	<h4>师资介绍</h4>
+			                <p class="carousel_box_p">教学宣言：努力做好每一件事，为教育事业奋斗一生</p>
+			          </li>
+	              
+		           
+		        
+		      <li class="carousel_box_li">
+			            	<img src="images/th1.jpg">
+			            	<h3 class="small_carousel_header">姓名</h3>
+			            	<h4>师资介绍</h4>
+			                <p class="carousel_box_p">教学宣言：努力做好每一件事，为教育事业奋斗一生</p>
+			          </li>
+					  <li class="carousel_box_li">
+			            	<img src="images/th1.jpg">
+			            	<h3 class="small_carousel_header">姓名</h3>
+			            	<h4>师资介绍</h4>
+			                <p class="carousel_box_p">教学宣言：努力做好每一件事，为教育事业奋斗一生</p>
+			          </li>
+	              
+				  <li class="carousel_box_li">
+			            	<img src="images/th1.jpg">
+			            	<h3 class="small_carousel_header">姓名</h3>
+			            	<h4>师资介绍</h4>
+			                <p class="carousel_box_p">教学宣言：努力做好每一件事，为教育事业奋斗一生</p>
+			          </li>
+	              
+				  <li class="carousel_box_li">
+			            	<img src="images/th1.jpg">
+			            	<h3 class="small_carousel_header">姓名</h3>
+			            	<h4>师资介绍</h4>
+			                <p class="carousel_box_p">教学宣言：努力做好每一件事，为教育事业奋斗一生</p>
+			          </li>
+	              
+				  <li class="carousel_box_li">
+			            	<img src="images/th1.jpg">
+			            	<h3 class="small_carousel_header">姓名</h3>
+			            	<h4>师资介绍</h4>
+			                <p class="carousel_box_p">教学宣言：努力做好每一件事，为教育事业奋斗一生</p>
+			          </li>
+	              
+				  <li class="carousel_box_li">
+			            	<img src="images/th1.jpg">
+			            	<h3 class="small_carousel_header">姓名</h3>
+			            	<h4>师资介绍</h4>
+			                <p class="carousel_box_p">教学宣言：努力做好每一件事，为教育事业奋斗一生</p>
+			          </li>         
+		           
+		        </ul>      
+		    </div> 
+		</div>
+  <div class="friendship_link">
+			<div class="friendship1"></div>
+			<ul class="friendship2">
+				<li><a href="#" style="font-family:微软雅黑;">中国美术学院</a></li>
+				<li><a href="#"  style="font-family:微软雅黑;">中央美术学院</a></li>
+				<li><a href="#"  style="font-family:微软雅黑;">清华大学美术学院</a></li>
+				<li><a href="#"  style="font-family:微软雅黑;">西安美术学院</a></li>
+				<li><a href="#"  style="font-family:微软雅黑;">天津美术学院</a></li>
+				<li><a href="#"  style="font-family:微软雅黑;">广州美术学院</a></li>
+				<li><a href="#"  style="font-family:微软雅黑;">四川美术学院</a></li>
+				<li><a href="#"  style="font-family:微软雅黑;">四川美术学院</a></li>
+					
+			</ul>
+			<ul class="fenxiang">
+			   <!-- <li><a href="javascript:qzone()"><img alt="分享到QQ空间"  style="height:89px;" src="images/f1.png"></a></li> -->
+			   <!-- <li><a href="javascript:weixin()"><img alt=""  style="height:89px;" src="images/f2.png"></a></li>  -->
+			   <!-- <li><a href="javascript:tqq()"><img alt=""  style="height:89px;" src="images/f3.png"></a></li> -->
+<!-- 			   <li><a href=""><img alt=""  style="height:89px;" src="images/f4.png"></a></li> -->
+          <li><a href=""><img alt="分享到QQ空间"  style="height:89px;" src="images/f1.png"></a></li>
+			  <li class="wx" style="position:relative"><a ><img alt=""  style="height:89px;" src="images/f2.png"></a> 
+			    <!-- <div  class="weixing"style=" overflow:hidden">  -->
+					    <!-- <h1>分享到微信朋友圈</h1>  -->
+						
+						<!-- <img alt=""  src="images/er.jpg" style="clear:both">  -->
+						<!-- <p style="color:#666666; font-size:11px;  font-family:微软雅黑; line-height:22px;">打开微信，点击底部的“发现”，使用“扫一扫”，即可将网页分享至朋友圈</p> -->
+					 <!-- </div>   -->
+					 <!-- <span  class="clase">×</span>  -->
+			    </li> 
+			   <li><a href=""><img alt=""  style="height:89px;" src="images/f3.png"></a></li>
+			   <li style="margin-right:0"><a href=""><img alt=""  style="height:89px;" src="images/f5.png"></a></li>
+			</ul>	
+		</div>
+        <footer style="background:#222222; width:100%; height:187px;overflow:hidden">
+             <ul style="">
+                <li>  <a href="about_us.html">关于我们</a></li>
+				<li><a href="art_growup.html">艺术成长</a></li>
+			   <li>  <a href="fun_online.html">童趣在线</a></li>
+			   <li><a href="creative_space.html">创意空间</a></li>
+			   <li> <a href="community_education.html">社区美育</a></li>
+				<li><a href="art_practice.html">艺术实践</a></li>
+				 <li style="margin-right:0"><a href="art_life.html">艺术生活</a></li>
+             </ul> 
+			 <div class="bdsharebuttonbox bdshare-button-style0-16" style="display:none;" data-bd-bind="1478141619476"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到复制网址" href="#" class="bds_copy" data-cmd="copy" id="copy"></a><a title="分享到邮件分享" href="#" class="bds_mail" data-cmd="mail" id="mail"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone" id="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina" id="tsina"></a><a title="分享到百度空间" href="#" class="bds_bdhome" data-cmd="bdhome" id="bdhome"></a>  <a title="分享到LinkedIn" href="#" class="bds_linkedin" data-cmd="linkedin" id="linkedin"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq" id="tqq"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin" id="weixin"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren" id="renren"></a><a title="分享到搜狐微博" href="#" class="bds_tsohu" data-cmd="tsohu" id="tsohu"></a><a title="分享到QQ好友" href="#" class="bds_sqq" data-cmd="sqq" id="sqq"></a><a title="分享到开心网" href="#" class="bds_kaixin001" data-cmd="kaixin001" id="kaixin001"></a><a title="分享到飞信" href="#" class="bds_fx" data-cmd="fx" id="fx"></a><a title="分享到豆瓣网" href="#" class="bds_douban" data-cmd="douban" id="douban"></a><a title="分享到一键分享" href="#" class="bds_mshare" data-cmd="mshare" id="mshare"></a></div>
+			 <div class="bottom1" style="width:555px; height:62px; margin-left:auto; margin-right:auto;">
+			       <div class="bottom1_1">
+					   <span style="font-family:微软雅黑; margin-right:64px;">©2013-2016 Taobao.com版权所有</span> 
+						<span style="font-family:微软雅黑">电子邮件：12345678@qq.com</span></div>
+			      <div class="bottom1_2">   	
+					  <span style="font-family:微软雅黑; margin-right:22px;">咨询电话：4000-200-2000</span> 
+					  <span style="font-family:微软雅黑">地址：无锡市崇安区中上路恒隆广场</span> 
+                  </div>				  
+			 </div>
+        </footer>    
+</body>
+<script>
+window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+function copy() { document.getElementById("copy").click(); } 
+function mail() { document.getElementById("mail").click(); } 
+function qzone() { document.getElementById("qzone").click(); }
+function tsina() { document.getElementById("tsina").click(); } 
+function bdhome() { document.getElementById("bdhome").click(); } 
+function tqq() { document.getElementById("tqq").click(); } 
+function weixin() { document.getElementById("weixin").click(); } 
+function renren() { document.getElementById("renren").click(); }
+function tsohu() { document.getElementById("tsohu").click(); } 
+function sqq() { document.getElementById("sqq").click(); } 
+function kaixin001() { document.getElementById("kaixin001").click(); } 
+function fx() { document.getElementById("fx").click(); } 
+function douban() { document.getElementById("douban").click(); } 
+function mshare() { document.getElementById("mshare").click(); } 
+function linkedin() { document.getElementById("linkedin").click(); }
+
+</script>
+</html>

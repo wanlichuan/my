@@ -1,0 +1,54 @@
+/* CSS Document */
+
+/*------------------HTML BY BING-------------------*/
+/*------------------2014--04--16-------------------*/
+/*------------------QQ-313854716-------------------*/
+
+
+
+.leftLoop{ clear:both; width:1120px; margin-top:0;}
+.picList{ margin-top:15px; width:1220px; overflow:hidden;} 
+.picList li{ float:left; display:block; margin-right:16px; width:268px; padding-bottom:15px;}
+.picList li img{ width:268px}
+.pic{ padding-top:15px;}
+.picTitle{ font-size:14px; line-height:30px; padding-top:3px;}
+.picTitle a{ color:#000;} 
+
+.leftLoop .hd{ overflow:hidden; padding-bottom:10px;}
+.moveBtn2{ float:right; display:block; padding-top:15px;}
+.moveBtn2 a{ display:block; background:#CCC; text-align:center; line-height:26px; float:right;}
+.leftLoop .hd span .prev,.leftLoop .hd span .next{ display:block; overflow:hidden;  cursor:pointer; background:#F0F0F0; height:28px; width:28px; float:right; margin-left:1px;}
+.leftLoop .hd span .next{ background-position:-29px 0;}
+
+.caseTit{ font-size:24px; line-height:45px;}
+.caseTit b{ color:#c70044;} 
+
+.boxgrid{ width: 268px; height:225px; float:left; background:#79afdd; overflow: hidden;position: relative;}
+.boxgrid img{position: absolute; top: 0; left: 0; border: 0; z-index:1;}
+.boxgrid h3{  padding:20px; position: relative; z-index:0; font-size:30px;color:#FFF; line-height:32px; height:80px;}
+.boxgrid p{ padding: 0 20px; position:relative; color:#FFF; z-index:0; font-size:12px; line-height:18px;}
+.boxgrid p a{ color:#FFF;}
+
+.footer{ height:84px; line-height:70px; text-align:center; font-size:12px; color:#FFF; background:#c70044; margin-top:20px; clear:both;}
+.link h1{ background:url(../images/lineBg.gif) repeat-x left center; height:80px; line-height:80px;}
+.link h1 span{ background:#FFF; text-align:center; width:125px; display: block; margin:0 auto; font-size:24px;} 
+.link ul{ border: #CCC solid 1px; overflow:hidden; padding:30px; padding-bottom:20px;}
+.link ul li{ float:left; padding-right:10px; padding-bottom:10px;}
+
+.bigTitleImg{ background:#f4ffd7 url(../images/img2.jpg) no-repeat center  center; height:240px; border-top:#999 solid 2px; position:relative; border-bottom:#999 solid 1px; }
+
+.bigTitleImg .tab{ position:absolute; bottom:-1px; left:0; z-index:1000; overflow: hidden;}
+.bigTitleImg .tab li{ float:left; margin-right:5px;}
+.bigTitleImg .tab li a{ display:block; float:left; font-size:14px; padding:10px; border:#CCC solid 1px; background:#FFF;}
+.bigTitleImg .tab li a:hover,.bigTitleImg .tab .hov a{ background:#c70044; color:#FFF; font-weight:bold; border:#c70044 solid 1px;}
+.bigTitleImg .tab li a:hover{}
+
+.bigTitleImg h1{ position:absolute; right:0; bottom:15px; font-size:36px; z-index:10000; color:#999;}
+.bigTitleImg h1 b{ color:#72a700;}
+
+.content{ padding:50px; overflow:hidden;}
+.conL{ float:left; width:420px; font-size:14px; line-height:24px;}
+.conL h1{ font-size:24px; padding-bottom:30px;}
+.conR{ float:right; width:560px;}
+
+/

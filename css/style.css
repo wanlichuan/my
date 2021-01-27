@@ -1,0 +1,247 @@
+﻿@charset "utf-8";
+/*!
+ * by:萤火星
+ * qq：418026308
+ * 版权所有 青花园
+ * 界面量身设计 请勿仿制
+ * 简约而不简单
+ */
+
+/*public*/
+html,body{min-width:1343x;max-width:1920px;margin:0 auto;}
+.cur>a{background:#79afdd;color:#333;}
+a:hover{color:#666;}
+img{max-width: 100%;}
+ul {list-style: none;padding: 0;margin: 0;}
+.am-container{position: relative;max-width: none;width: 1343px;}
+.menu{padding-top:10px;}
+/*head*/
+.head{padding:20px 0 10px;}
+.head .topPhone{margin-top:25px;}
+.nav{height:80px;}
+.nav .menu>li{display:inline-block;}
+.nav .menu>li>a{color:#0c0c0c;display:block;padding-left:30px; padding-right:30px;padding-top:10px; padding-bottom:10px;font-family:微软雅黑}
+.nav .menu>.first>a:hover{ background:#7aafdb}
+.subnav{position:absolute;z-index:999;width:940px;left:300px;box-shadow: 0 0 1px #888888;line-height:30px;padding:10px 20px;background:#fff;background:rgba(255,255,255,0.8);top:80px;}
+.subnav li > a{margin:5px;display:block;color:#333;font-size:16px;text-align:left;border-radius:5px;font-family:微软雅黑;}
+.subnav li span{display:block;font-size:22px;}
+.subnav a.prev,.subnav a.next{display:block;width:22px;height:46px;background:url(../images/subnavIco.png) left bottom no-repeat;position:absolute;left:-40px;top:40px;}
+.subnav a.next{left:auto;right:-40px;background-position:0 0;}
+.banner{min-width:1140px;margin:0;}
+.banner.am-slider-default .am-control-nav{bottom:15px;}
+.banner.am-slider-default .am-control-nav li a{width:22px;height:22px;background:#f2921b;border:3px solid #f2921b;box-shadow:none;}
+.banner.am-slider-default .am-control-nav li a.am-active{background:#fff;}
+.pageBanner{position:relative;}
+.pageBanner img{width:100%;}
+.pageBanner .xiangmushenqing{width:450px;position:absolute;top:0;left:50%;margin-left:120px;background:#fff;background:rgba(255,255,255,0.3);height:100%;z-index: 100;}
+.pageBanner .xiangmushenqing legend{text-align:center;border-bottom:1px solid #837f72; margin-top:80px;}
+.pageBanner .xiangmushenqing label span{color:#ff0000;margin-left:5px;}
+.pageBanner .xiangmushenqing .am-btn{background:#f29219;color:#fff;font-size:20px;padding:10px 50px; margin-top:30px;}
+
+
+/*首页更多老师字样*/
+.indexTeam .indexBd .gdls{ position:absolute;left:940px; top:385px;}
+.indexTeam .indexBd .gdls a{font-size:16px; color:#666;}
+.indexTeam .indexBd .gdls a:hover{color:#ff0000; text-decoration:underline;}
+
+
+
+
+.liuyanbox{ width:100%; height:720px; background: url("../images/liuyan.jpg");  margin-left:auto; margin-right:auto;overflow:hidden}
+.liuyanbox1{width:1157px;margin-left:auto;margin-right:auto;margin-top:249px;}
+.liuyanbox1 input{ width:360px; height:45px; background:none; border:none; color:#fff; margin-left:21px;}
+ .liuyanbox1 #txtjy{width:1137px; height:171px; margin-top:49px; background:none;margin-left:9px;border:none;color:#fff}
+   .liuyanbox1 .btn1 {
+    clear:both;
+    background: none;
+    cursor: pointer;
+    height: 62px;
+    margin-left:475px;
+    width: 206px;
+    margin-top:62px;
+}
+.liuyanbox1 .btn1:hover{opacity:0.6}
+
+
+
+
+#channel26 div.slider-nav span {top:70px; }
+#channel26 div.slider-nav span.right {background:url(../images/slider_right2.png); }
+#channel26 div.slider-nav span.left {background:url(../images/slider_left2.png); }
+#channel26 div.slider-nav span.right:hover {background:url(../images/slider_right2.png) bottom; }
+#channel26 div.slider-nav span.left:hover {background:url(../images/slider_left2.png) bottom; }
+#channel27{background:#efeff0;}
+
+
+*青花园美育*/
+.topSort{text-align:center;margin:60px 0 30px;}
+.topSort .icoBox{border-radius:50%;width:185px;height:185px;margin:0 auto;color:#fff;font-size:18px;padding-top:25px;display:inline-block;}
+.topSort .icoBox1{background:#eb6877;}
+.topSort .icoBox2{background:#f182b2;}
+.topSort .icoBox3{background:#2e9ee5;}
+.topSort .icoBox4{background:#bed803;}
+#channel29{background:url(../images/channer29Bg.jpg) center top no-repeat;margin-bottom:300px;padding-bottom:20px;position:relative;}
+#channel29 .ad{position:absolute;bottom:-300px;}
+#channel30{margin-bottom:50px;}
+.fineArt{ position: relative;overflow: hidden;}
+.fineArt .bigImg{position: relative;overflow:hidden;margin-bottom:12px;}
+.fineArt .bigImg li img{ vertical-align:middle; width:670px; height:500px;}
+.fineArt .smallScroll{position:relative;}
+.fineArt .sPrev,.fineArt .sNext{display: block;color:#fff;position:absolute;top:0;width:45px;height:100%;background:#f2921b;z-index:999;line-height:140px;text-align:center;}
+.fineArt .sNext{right:0;}
+.fineArt .smallImg{padding:0 50px;}
+.fineArt .smallImg li{ float: left;width:236px; height:140px;margin:0 5px;cursor:pointer; overflow:hidden;box-sizing:content-box;}
+.fineArt .smallImg li{border: 2px solid #fff;}
+.fineArt .smallImg .on{ border-color: #f08a01;}
+#channel30 .textBox{position:absolute;top:0;right:0;background:#f2921b;color:#fff;width:440px;padding:30px;}
+#channel30 .textBox .infoBox{diplay:none;}
+#channel30 .textBox .infoBox p{margin:0;}
+#channel30 .textBox .hd{font-size:22px;line-height:40px;}
+#channel30 .textBox .hd span{font-size:28px;display:block;}
+#channel30 .textBox .bd{padding:20px 0;font-size:18px;border-top:1px solid #fff;border-bottom:1px solid #fff;height:300px;overflow:hidden;margin-top:10px;}
+#channel30 .textBox #tip{height:50px;text-align:right;padding-top:15px;}
+#channel30 .textBox #tip li{width:15px;height:15px;border-radius:50%;background:#f7be76;display:inline-block;margin-left:5px;cursor:pointer;}
+#channel30 .textBox #tip li.cur{background:#fff;}
+#channel31{background:url(../images/channer31Bg.jpg) center top no-repeat;}
+#channel32 .indexBd{position:relative;height:300px;margin:20px 0;}
+#channel32 .indexBd li{position:absolute;top:0;}
+#channel32 .indexBd .space1{left:0;width:350px;height:280px;}
+#channel32 .indexBd .space2{left:375px;width:350px;height:280px;}
+#channel32 .indexBd .space3{left:750px;width:165px;height:127px;}
+#channel32 .indexBd .space4{left:940px;width:165px;height:127px;}
+#channel32 .indexBd .space5{left:750px;top:153px;width:165px;height:127px;}
+#channel32 .indexBd .space6{left:940px;top:153px;width:165px;height:127px;}
+/*---------------------博物馆---------------------- */
+.museum_left{
+	width: 58rem;
+	float: left;
+}
+.museum_left p{
+	text-indent:2em;
+	font-size: 14px;
+	color: #000;
+}
+.museum_left_li{
+	overflow:hidden;
+	margin-top: 6rem;}
+.museum_left_li div{
+	float: left;
+	width: 21.24rem;
+	height: 17.87rem;
+}
+.museum_left_li p{
+	float: right;
+	width: 34.6rem;
+}
+.museum_right{
+	width: 27rem;
+	float: right;
+}
+.datu .museum_right li{
+	width: 100%;
+	height: 25rem;
+}
+/* ------------------艺术展览---------------------- */
+.art_show{
+	width: 1146px; 
+	height: 570px; 
+	margin-left: auto; 
+	margin-right: auto;
+	background: url(../images/yishuzhanlan.jpg)no-repeat;
+}
+.art_show_left{
+	float: left;
+	margin-top: 13rem;
+}
+.art_show_left h3{
+	font-size: 18px;
+	color: #79afdd;
+}
+.art_show_left li div{
+	border-left: 1px solid #79afdd;
+}
+.art_show_left li p{
+	text-indent: 1em;
+	margin-bottom:0;
+	
+}
+.art_show_right{
+	float: right;
+	width: 34.7rem;
+	margin-right: 4.7rem;
+	margin-top: 13rem;
+}
+.art_show_right p{
+	text-indent: 2em;
+	color: #fff;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing:1px;
+}
+/* -------------启发---------------- */
+.qifa{
+	
+	height: 40rem;
+}
+.qifa_top,.qifa_bottom{
+	width:74.4rem;
+	margin: 0 auto;
+	margin-top: 5px;
+	position: relative;
+	top: 11rem;
+}
+.qifa_bottom{top:12rem;}
+
+.qifa_top img{
+	position: absolute;
+	bottom: 0;
+}
+.qifa_bottom img{
+	position: absolute;
+	top: 0;
+}
+/* --------------------作品------------------- */
+.zuopbox li:hover .mane1{
+	display: block;
+}
+.mane1{display: none;}
+.mane1_2{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	z-index: 10;
+	color: #fff;
+	padding:0 5px;
+	height: 50px;
+}
+.mane1_2 p{
+	font-size: 14px;
+	overflow: hidden;
+	text-indent:1em;
+}
+.pop_zuop{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 9999;
+}
+.entypo-cancel::before {
+    content: "✕";
+}
+[class*="entypo-"]::before {
+    font-family: "entypo",sans-serif;
+}
+.weixing{ position:absolute;width:241px; height:318px; border:1px solid #dedede;background:#fff; top:-320px;padding:12px;}
+.weixing  h1{color:#000000; font-size:12px; font-family:微软雅黑; float:left}
+.weixing  span{ flaot:right;     width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    color: #999;
+    text-decoration: none;
+    font-size: 16px;}

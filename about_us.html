@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://www.qhyart.com/qinghuayuanwenhuaabout-17.html -->
+<html class="js cssanimations"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<meta charset="gb2312">
+<title></title>
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="content-language" content="zh-CN">
+<meta name="baidu-site-verification" content="1EOfOOVlJu" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="css/css/css/amazeui.min.css">
+<link rel="stylesheet" href="css/amazeui.min.css">
+<link href="css/banner.css" rel="stylesheet">
+<link href="css/aas.css" rel="stylesheet">
+<script src="js/jquery-1.9.1.min.js " >   </script>
+<link rel="stylesheet" href="css/css1/amazeui.min.css">
+<link href="css/map.css" rel="stylesheet">
+<link href="css/mainy.css" rel="stylesheet">
+<link href="css/indexy.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/css/css/style.css" rel="stylesheet">
+<link href="css/css1/style.css" rel="stylesheet">
+<link href="images_files/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="images_files/global.css">
+<link rel="stylesheet" type="text/css" href="images_files/globalRest.css">
+<script type="text/javascript" src="images_files/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="images_files/jquery.backstretch.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		//Horizontal Sliding
+		$('.boxgrid.slideright').hover(function(){
+			$(".cover", this).stop().animate({left:'268px'},{queue:false,duration:300});
+		}, function() {
+			$(".cover", this).stop().animate({left:'0px'},{queue:false,duration:300});
+		});
+
+	});
+</script>
+
+
+<script type="text/javascript" >
+		/* 鼠标悬停控制div转动 */
+		$(function(){
+			var i=0;
+			var timer=null;
+			$('.banner .banner_ban img').eq(0).fadeIn().siblings().fadeOut();
+			timer=setInterval(lunbo,2000);
+				function lunbo(){
+					if(i==5){
+						i=0;			
+						}
+					$('.banner .banner_ban img').eq(i).fadeIn().siblings().fadeOut();
+					$('.banner .banner_btn li').eq(i).css({backgroundColor:'#b61b6f'}).siblings().css({backgroundColor:'#3e3e3e'});
+					i++;
+					}
+			
+		})
+
+</script>
+<!-- 师资团队左右滚动效果 -->  
+
+   <script type="text/javascript">
+
+
+       //验证是否未email
+       function IsEmail(str) {
+           var reg = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+
+           return reg.test(str);
+       }
+       $("input[type=reset]").trigger("click");
+       
+       $(function(){
+    		$('.corporateculture dd').click(function(){
+    			$(this).children('p').toggle();
+    		});
+    		
+    	//沃野荣誉
+    	$('.honor_img_ul').html($('.honor_img_ul').html()+	$('.honor_img_ul').html());
+    	//动态给图片显示区ul加宽度
+    	$('.honor_img_ul').css({width:380*$('.honor_img_ul li').length});
+    	//点击图片显示区，左右移动图片
+    	$('.honor_left').click(function(){
+    		$('.honor_img_ul').animate({left:"-=956"},function(){
+    			if($('.honor_img_ul').position().left==-1140){
+    						document.getElementsByClassName('honor_img_ul')[0].style.left=0;
+    						}	
+    			});
+    		});
+
+    	$('.honor_right').click(function(){
+    		$('.honor_img_ul').animate({left:"+=956"},function(){
+    			if($('.honor_img_ul').position().left==0){
+    						document.getElementsByClassName('honor_img_ul')[0].style.left=-1140+"px";
+    						}	
+    			});
+    		});
+
+
+    	//示范基地
+    	$('.demostration_img_ul').html($('.demostration_img_ul').html()+	$('.demostration_img_ul').html());
+    	//动态给图片显示区ul加宽度
+    	$('.demostration_img_ul').css({width:380*$('.demostration_img_ul li').length});
+    	//点击图片显示区，左右移动图片
+    	$('.demostration_left').click(function(){
+    		$('.demostration_img_ul').animate({left:"-=380"},function(){
+    			if($('.demostration_img_ul').position().left==-1140){
+    						document.getElementsByClassName('demostration_img_ul')[0].style.left=0;
+    						}	
+    			});
+    		});
+
+    	$('.demostration_right').click(function(){
+    		$('.demostration_img_ul').animate({left:"+=380"},function(){
+    			if($('.demostration_img_ul').position().left==0){
+    						document.getElementsByClassName('demostration_img_ul')[0].style.left=-1140+"px";
+    						}	
+    			});
+    		});
+    	})
+    $(function(){
+    	
+    	  $('.q').click(function(){
+    		  $('body,html').animate({scrollTop:600},300);
+  		})
+  		 $('.lichen').click(function(){
+  			$('body,html').animate({scrollTop:1100},300);
+  			
+  			
+  		})
+  		 $('.chen').click(function(){
+  			$('body,html').animate({scrollTop:1800},300);
+  			
+  		})
+  		 $('.fenzhi').click(function(){
+  			$('body,html').animate({scrollTop:2500},300);
+  			
+  		})
+  		
+  		
+  		
+    })
+          </script>
+		  <style>
+		  .subnav{ width:143px; left:300px;}
+		  .liuyan01{text-align:left}
+		  .cur{color:#fff}
+		  </style>
+</head>
+<body>
+<!--head begin-->
+
+
+<div class="nav">
+  <div class="am-container">
+    <ul class="menu">
+    
+       <li><a href="index.html" style="width:131px; height:62px;margin-right:60px;padding:0"><img src="images/logo.png"></a>
+      </li>
+       <li ><a href="index.html">首页</a></li>
+    <li class="cur"  ><a href="about_us.html" style=" color:#fff">关于我们</a>
+	     <div class="am-slider am-slider-default am-slider-carousel subnav">
+        <div class="am-viewport" style="overflow: hidden; position: relative;">
+		<ul class="am-slides" style="width: 100%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+
+                <li class="q" style="width: 215px; margin-right: 10px;display: block;"><a>公司简介</a></li>
+                
+                
+                
+                <li class="lichen" style="width: 215px; margin-right: 10px;display: block;"><a>发展历程</a></li>
+                
+                
+                
+                <li class="chen" style="width: 215px; margin-right: 10px;display: block;"><a>发展成果</a></li>
+                
+                
+                
+                <li class="fenzhi" style="width: 215px; margin-right: 10px;display: block;"><a>分支机构信息</a></li>
+                
+                
+
+                
+                
+           </ul></div></div>
+	</li>
+	    
+
+      </li>
+    <li><a href="art_growup.html">艺术成长</a></li>
+   <li>  <a href="fun_online.html">童趣在线</a></li>
+   <li><a href="creative_space.html">创意空间</a></li>
+   <li> <a href="community_education.html">社区美育</a></li>
+	<li><a href="art_practice.html">艺术实践</a></li>
+	 <li><a href="art_life.html">艺术生活</a></li>
+    
+    </ul>
+  </div>
+</div>
+
+<div style="clear:both;position:relative">
+         <img style="width:1920px; " src="images/K.png" alt="banner"> 
+
+       </div>
+
+
+<div id="channel24">
+	<div class="am-container">
+    
+    	
+        <div class="indexHd">公司简介
+          <div class="img"><img src="images_files/201606150846524160.png" alt="关于我们"></div>
+          <div class="text">
+            <p style="white-space: normal;">  现代美术学校（原扈美画室）成立于1996年，是南阳市知名品牌学校，地处市中心工人文化宫，学校分高考部、造型基础部和少儿部。学校面积600余平米，设有前台、休息区、办公室和10个标准化教室。空调教室、多媒体电教设备、丰富的专业图书、完备的教具、优雅的教学环境，为学生提供了一个良好的学习环境。我校为满足不同层次考生的需求高起点、严要求、因材施教，充分挖掘学生的潜力，科学的教育体系、完善的管理模式、专业的教师团队、灵活的教学方法、严谨的教学态度和高度的责任心，使本校学生在高考中专业合格率100%。为中央美院、中国美院等八大美院和国家重点大学输送了大批优秀人才。“青花”作为传统文明的独家记忆，以多元文化的相互交融演绎出了美轮美奂的艺术佳作。</p><p><br></p>
+          </div>
+        </div>
+        
+    
+    </div>
+</div>
+
+<div id="channel25" style="position:relative">
+<img src="images_files/channel25Bg.jpg" style="width:1903px; height:674.33px;">
+	<div class="am-container" style="position:absolute;top:0;left:50% ; margin-left:-570px;">
+    
+    	
+        <div class="indexHd">发展历程<br>
+          <div class="text">
+            <p>现代美术学校（原扈美画室）成立于1996年，是南阳市知名品牌学校，地处市中心工人文化宫，学校分高考部、造型基础部和少儿部。学校面积600余平米，设有前台、休息区、办公室和10个标准化教室。</p>
+          </div>
+        </div>
+        
+        <div class="am-slider "  data-am-flexslider="{directionNav: false,slideshow: true,slideshowSpeed: 4000}">
+          
+        <div class="am-viewport" >
+		    <ul class="am-slides" style="width: 100%; ">
+			<li\ style="width: 1104px; margin-right: 0px; float: left; display: block;">
+				<a href="javascript:void(0)">
+				      <div class="am-slider slider2"  style="width:1110px; height:480px; position: relative;overflow:hidden" >
+		    <div class="l1" style="width:115px; height:266px; background:url(images/l1.png)no-repeat;position:absolute;top:213px; left:0">
+			    <div style="width:82px; height:54px; margin-top:31px; margin-left:auto; margin-right:auto;overflow:hidden">
+				       <a style="text-align:center; color:#fff; letter-spacing:1px; font-size:12px; line-height:18px; font-family:微软雅黑">
+					          2010 年集团正式项目开启
+					   </a>
+				</div>       
+			</div>
+           <div class="l2" style="width:119px; height:438px; background:url(images/l2.png)no-repeat;position:absolute;top:44px; left:81px">
+			     <div style="width:82px; height:54px; margin-top:31px; margin-left:auto; margin-right:auto;overflow:hidden">
+				       <a style="text-align:center; color:#fff; letter-spacing:1px; font-size:12px; line-height:18px; font-family:微软雅黑">
+					          2010 年集团正式项目开启
+					   </a>
+				</div>       
+			</div>	
+           <div class="l3" style="width:133px; height:310px; background:url(images/l3.png) no-repeat;position:absolute;top:170px; left:184px">
+			      <div style="width:89px; height:77px; margin-top:26px; margin-left:auto; margin-right:auto;overflow:hidden">
+				       <a style="text-align:center; color:#fff; letter-spacing:1px; font-size:12px; line-height:18px; font-family:微软雅黑">
+					          2010 年集团正式项目开启,目开启
+					   </a>
+				</div>      
+			</div>
+            <div class="l4" style="width:110px; height:406px; background:url(images/l4.png) no-repeat;position:absolute;top:79px; left:338px">
+			          <div style="width:76px; height:57px; margin-top:26px; margin-left:auto; margin-right:auto;overflow:hidden">
+				       <a style="text-align:center; color:#fff; letter-spacing:1px; font-size:12px; line-height:18px; font-family:微软雅黑">
+					          2010 年集团正式项目开启,目开启
+					   </a>
+				     </div>    
+			</div>
+           <div class="l5" style="width:242px; height:242px; background:url(images/l5.png) no-repeat;position:absolute;top:79px; left:454px">
+			       <div style="width:192px; height:145px; margin-top:57px; margin-left:auto; margin-right:auto;overflow:hidden">
+				   <img src="images/logo1.png" style="margin-bottom:30px;float:right">
+				       <a style="text-align:left;dispaly:block;flaot:left; color:#fff; letter-spacing:1px; font-size:23px;font-weight:700;margin-top:32px;line-height:18px; font-family:微软雅黑">
+					          美术教育
+					   </a>
+				     </div>     
+			</div>
+           <div class="l6" style="width:126px; height:271px; background:url(images/l6.png) no-repeat;position:absolute;top:208px; left:709px">
+			      <div style="width:76px; height:75px; margin-top:23px; margin-left:auto; margin-right:auto;overflow:hidden">
+				       <a style="text-align:center; color:#fff; letter-spacing:1px; font-size:12px; line-height:18px; font-family:微软雅黑">
+					          2010 年集团正式项目开启,目开启
+					   </a>
+				     </div>       
+			</div>	
+           <div class="l6" style="width:127px; height:440px; background:url(images/l7.png) no-repeat;position:absolute;top:44px; left:794px">
+			      <div style="width:76px; height:75px; margin-top:23px; margin-left:auto; margin-right:auto;overflow:hidden">
+				       <a style="text-align:center; color:#fff; letter-spacing:1px; font-size:12px; line-height:18px; font-family:微软雅黑">
+					          2010 年集团正式项目开启,目开启 ,目开启
+					   </a>
+				     </div>       
+			</div>
+             <div class="l6" style="width:118px; height:308px; background:url(images/l8.png) no-repeat;position:absolute;top:174px; left:874px">
+			       <div style="width:76px; height:75px; margin-top:23px; margin-left:auto; margin-right:auto;overflow:hidden">
+				       <a style="text-align:center; color:#fff; letter-spacing:1px; font-size:12px; line-height:18px; font-family:微软雅黑">
+					          2010 年集团正式项目开启,目开启 ,目开启
+					   </a>
+				     </div>      
+			</div>	
+             <div class="l6" style="width:105px; height:413px; background:url(images/l10.png) no-repeat;position:absolute;top:72px; left:1003PX">
+			         <div style="width:76px; height:57px; margin-top:26px; margin-left:auto; margin-right:auto;overflow:hidden">
+				       <a style="text-align:center; color:#fff; letter-spacing:1px; font-size:12px; line-height:18px; font-family:微软雅黑">
+					          2010 年集团正式项目开启,目开启 ,目开启
+					   </a>
+				     </div>     
+			</div>			
+            
+
+</div>
+				</a>
+			</li>
+            
+            
+			</ul></div></div>
+     
+    </div>
+</div>
+<div id="channel27">
+	<div class="am-container">
+    
+    	
+        <div class="indexHd">发展成果<br>
+          <div class="text">
+            <p>如何让我们的孩子享受到最好的教育，一直是青花园教育的核心价值观。如何造福于社会，如何有利于孩子的成长，如何推动中国教育事业的发展，构建成为青花园社会责任事业部的三个关键要素。我们相信“自利则生，利他则久”，企业要想真正做大做强，并且长盛不衰，其秘诀就是一开始就把社会责任作为终极目标来追求。教育是一个社会发展的根基，关乎民族的未来。青花园教育，作为有着15年历史的教育集团，具备足够的历史使命感，来承担这个社会责任，并义不容辞!</p><p></p>
+          </div>
+           
+    <div class="center">
+        <div class="slideTxtBox leftLoop">
+            <div class="hd">
+        	    <h1>
+                  
+                    <span class="moveBtn2">
+                    <a class="next">-</a>
+                    <a class="prev">+</a>                    
+                    </span>
+                </h1>
+            </div>
+            <div class="bd">
+                <div class="tempWrap" style="overflow:hidden; position:relative; width:1420px"><ul class="picList" style="width: 4260px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -1420px;">
+                                    
+                <li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102800911.jpg" widt="268" height="247" alt="砂画" class="cover" style="left: 0px;"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150609084258969.jpg" widt="268" height="247" alt="【如意美术】学生的太空泥作品" class="cover" style="left: 0px;"></a>
+                      <h3>【如意美术】学生的太空泥作品</h3>
+                      <p>孩子们非常喜欢动手创作，心灵手巧是孩子们的天性之一，看看孩子们的发挥吧！<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102151703.jpg" widt="268" height="247" alt="砂画" class="cover" style="left: 0px;"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102446319.jpg" widt="268" height="247" alt="砂画" class="cover" style="left: 0px;"></a>
+                      <h3>砂画</h3>
+                      <p>砂画 如意美术 儿童美术 美术培训 书法培训<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102710777.jpg" widt="268" height="247" alt="砂画" class="cover" style="left: 0px;"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102800911.jpg" widt="268" height="247" alt="砂画" class="cover" style="left: 0px;"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150609084258969.jpg" widt="268" height="247" alt="【如意美术】学生的太空泥作品" class="cover"></a>
+                      <h3>【如意美术】学生的太空泥作品</h3>
+                      <p>孩子们非常喜欢动手创作，心灵手巧是孩子们的天性之一，看看孩子们的发挥吧！<br><a h>[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102151703.jpg" widt="268" height="247" alt="砂画" class="cover"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a>[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102446319.jpg" widt="268" height="247" alt="砂画" class="cover"></a>
+                      <h3>砂画</h3>
+                      <p>砂画 如意美术 儿童美术 美术培训 书法培训<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102710777.jpg" widt="268" height="247" alt="砂画" class="cover"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102800911.jpg" widt="268" height="247" alt="砂画" class="cover"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;">
+					<a "><img src="images_files/20150609084258969.jpg" widt="268" height="247" alt="【如意美术】学生的太空泥作品" class="cover" style="left: 0px;"></a>
+                      <h3>【如意美术】学生的太空泥作品</h3>
+                      <p>孩子们非常喜欢动手创作，心灵手巧是孩子们的天性之一，看看孩子们的发挥吧！<br>
+					  <a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;">
+					<a ><img src="images_files/20150524102151703.jpg" widt="268" height="247" alt="砂画" class="cover" style="left: 0px;"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102446319.jpg" widt="268" height="247" alt="砂画" class="cover" style="left: 0px;"></a>
+                      <h3>砂画</h3>
+                      <p>砂画 如意美术 儿童美术 美术培训 书法培训<br><a >[查看详细]</a></p>
+                    </li><li class="boxgrid slideright" style="float: left; width: 268px;"> <a ><img src="images_files/20150524102710777.jpg" widt="268" height="247" alt="砂画" class="cover" style="left: 0px;"></a>
+                      <h3>砂画</h3>
+                      <p>这是一种半手工绘画制作品，让孩子体验一下彩色的砂子绘制魅力图画的快乐，孩子们很喜欢。<br><a>[查看详细]</a></p>
+                    </li></ul></div>
+            </div>
+        </div>
+        <script type="text/javascript">jQuery(".leftLoop").slide({ mainCell:".bd ul",effect:"leftLoop",vis:5,scroll:3,autoPlay:true});</script>
+        <div class="link">
+        	
+        </div>
+    </div> 
+ 
+        </div>
+        
+    
+    </div>
+</div>
+
+<div id="channel28" style="background:#efeff0;padding-top:20px; padding-bottom:20px;">
+      <div class="indexHd">分支机构
+          <div class="text">
+            <p>现代美术学校（原扈美画室）成立于1996年，是南阳市知名品牌学校，地处市中心工人文化宫，学校分高考部、造型基础部和少儿部。学校面积600余平米，设有前台、休息区、办公室和10个标准化教室。</p>
+          </div>
+        </div>
+<div class="map_main">
+	<div class="map_text">
+		<ul class="map_text_ul">
+			<li><strong>1.童趣未来艺术馆 沿海赛洛城分馆</strong></li>
+			<li>北京市朝阳区百子湾路沿海赛洛城402-501</li>
+			<li>电话：010-67735730</li>
+			<li>手机：13520101518</li>
+			<li><a>www.tqarts.com</a></li>
+		</ul>
+		
+		<ul class="map_text_ul">
+			<li><strong>2.百子湾分馆</strong></li>
+			<li>北京市朝阳区百子湾路沿海赛洛城220-1</li>
+			<li>电话：010-67735730</li>
+			<li>手机：13520101518</li>
+		</ul>
+	
+		<ul class="map_text_ul">
+			<li><strong>3.西城区分馆</strong></li>
+			<li>西城区西直门内南小街国英一号521号</li>
+		</ul>
+		<ul class="map_text_ul">
+			<li><strong>4.山西大同分馆</strong></li>
+			<li>山西省大同市上悦城6层</li>
+		</ul>
+		<ul class="map_text_ul">
+			<li><strong>5.山水文园分馆</strong></li>
+			<li>北京市朝阳区松榆南路107号</li>
+		</ul>
+		<ul class="map_text_ul">
+			<li><strong>6.望京分馆</strong></li>
+			<li>北京市朝阳区望京花家地中街中环南路2号</li>
+		</ul>
+	</div>
+	<div id="container">
+	</div>
+</div>
+
+</div>
+
+
+<script src="images_files/jquery.min.js"></script>
+<script>
+$(function(){	
+	scrolltotop.offset(20,20);
+	scrolltotop.init(); 
+});	
+</script>
+<!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="images_files/jquery.min(1).js"></script>
+<!--<![endif]-->
+<script src="images_files/amazeui.min.js"></script>
+	        <footer style="clear:both;position:relative">
+          <img alt="" style="width:1920px; height:180px;" src="images/footer.jpg">
+             <ul style="position:absolute; left:50%; top:0;margin-left:-410px;">
+              <li>  <a href="about_us.html">关于我们</a></li>
+				<li><a href="art_growup.html">艺术成长</a></li>
+			   <li>  <a href="fun_online.html">童趣在线</a></li>
+			   <li><a href="creative_space.html">创意空间</a></li>
+			   <li> <a href="community_education.html">社区美育</a></li>
+				<li><a href="art_practice.html">艺术实践</a></li>
+				 <li style="margin-right:0"><a href="art_life.html">艺术生活</a></li>
+              
+             </ul> 
+        </footer>
+        
+  
+</body>
+<script type="text/javascript" src="http://webapi.amap.com/demos/js/liteToolbar.js"></script>
+<script src="http://webapi.amap.com/js/marker.js"></script>
+<script src="http://webapi.amap.com/maps?v=1.3&key=c5c359a07fa35284664b731884596e92&callback=init"></script>
+<script>
+     function init(){
+        var map = new AMap.Map('container', {
+            center: [116.505164, 39.897302],
+            zoom: 20
+        });
+
+		<!-- 标尺 -->
+		map.plugin(["AMap.Scale"], function() {
+			map.addControl(new AMap.Scale());
+        });
+		mapObj = new AMap.Map('iCenter');
+		map.clearMap();
+		<!-- 点标注 -->
+		map.plugin(["AMap.Marker"], function(){
+			  var markers = [{
+				icon: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_b1.png',
+				position: [116.505164, 39.897302]
+			}, {
+				icon: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_b2.png',
+				position: [116.50583, 39.897842]
+			}, {
+				icon: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_b3.png',
+				position: [116.35876, 39.93619]
+			},{
+				icon: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_b6.png',
+				position: [116.467347, 39.870168]
+			},{
+				icon: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_b5.png',
+				position: [116.474643, 39.979917]
+			},{
+				icon: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_b4.png',
+				position: [113.2975810000, 40.0535000000]
+			}];
+			// 添加一些分布不均的点到地图上,地图上添加三个点标记，作为参照
+			markers.forEach(function(marker) {
+				new AMap.Marker({
+					map: map,
+					icon: marker.icon,
+					position: [marker.position[0], marker.position[1]],
+					offset: new AMap.Pixel(-12, -36)
+				});
+			});
+			$('.map_text').find('ul').click(function(){
+			index = $(this).index();
+			if(index == 0){
+				map.panTo([116.505164, 39.897302]);
+			}else if(index == 1){
+				map.panTo([116.50583, 39.897842]);
+			}else if(index == 2){
+				map.panTo([116.35876, 39.93619]);
+			}else if(index == 3){
+				map.panTo([113.2975810000,40.0535000000]);
+			}else if(index == 4){
+				map.panTo([116.474643, 39.979917]);
+			}else if(index == 5){
+				map.panTo([116.467347, 39.870168]);
+			}
+		});
+
+		});
+		map.plugin(["AMap.infoWindow"], function(){
+			var infoWindow = new AMap.infoWindow({
+				content: info.join("<br/>"),
+			});
+			infoWindow.open(map, [116.505164, 39.897302]);
+		});
+	}
+</script>
+</html>

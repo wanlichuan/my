@@ -1,0 +1,64 @@
+html {font-size: 62.5%;/*10 ?? 16 ?ив 100% = 62.5%*/}
+body {font-size: 1.4rem;/*1.4 ?ив 10px = 14px */}
+h1 { font-size: 2.4rem;/*2.4 ?ив 10px = 24px*/}
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea {margin:0; padding:0; font-weight: normal;font-style: normal;font-size: 100%; font-family: Microsoft Yahei;} 
+ol, ul ,li{list-style: none;} 
+img {border: 0;} 
+body {color:#000;background:#FFF; text-align: center; font: 12px/1.5 Arial, Helvetica, sans-serif;} 
+.clearfix:after {clear:both; content:"."; display:block; height:0pt; visibility:hidden; overflow:hidden;} 
+.clear{clear:both;height:1px; margin-top:-1px; width:100%;} 
+
+.dis{display:block;} 
+.undis{display:none;} 
+/* ----------и║ио?ж╠?и┤и║?----------- */
+.video_main{
+	padding: 60px 0;
+	width: 94.8rem;
+	margin: 0 auto;
+	overflow:hidden;
+}
+.video_main_left{
+	float:left;
+	overflow:hidden;
+	border-right: 1px solid #ccc;
+	padding: 0 15px;
+	text-align:left;
+	max-height: 158rem;
+}
+.video_main_left strong{
+	font-size: 1.8rem;
+	color: #6aafd9;
+}
+.video_main_left strong img{
+	margin-left: 0.7rem;
+}
+.video_list{
+	width: 13.2rem;
+}
+.video_list li{
+	cursor: pointer;
+	position:relative;
+}
+
+.video_list_tit{
+	font-size: 1.4rem;
+	color: #555;
+}
+.video_list_time{
+	font-size: 1rem;
+	color: #acacac;
+}
+.video_menu{
+	font-size: 20px;
+	color: #acacac;
+}
+.video_main_right{
+	float:left;
+	margin-left:5.6rem;
+}
+.video_main_p{
+	margin: 30px 104px;
+	text-align:left;
+	font-size: 1.4rem;
+	line-height: 23px;
+}
